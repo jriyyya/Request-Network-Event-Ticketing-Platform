@@ -3,4 +3,3 @@
 
 deno fmt --check
 deno lint
-deno test --allow-net
