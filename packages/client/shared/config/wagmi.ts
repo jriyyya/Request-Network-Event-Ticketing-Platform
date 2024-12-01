@@ -6,7 +6,7 @@ import { publicProvider } from "wagmi/providers/public";
 
 const { chains, publicClient, webSocketPublicClient } = configureChains(
   [mainnet, sepolia],
-  [publicProvider()]
+  [publicProvider()],
 );
 
 const wagmiConfig = createConfig({
@@ -22,7 +22,7 @@ const wagmiConfig = createConfig({
           name: "Mars App Starter",
           description: "Test kit of mars app",
           icons: ["/favicon.ico"],
-          url: window.location.hostname,
+          url: globalThis.location.hostname,
         },
       },
       chains: [mainnet, sepolia],
