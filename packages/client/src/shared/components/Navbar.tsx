@@ -20,8 +20,8 @@ export default function () {
       ref={navRef}
       className="flex fixed top-0 left-0 w-full z-[999] p-page py-2 items-center bg-background gap-x-5 border-b shadow-sm"
     >
-      <div className="flex">
-        <Logo className="size-12" />
+      <div className="flex group">
+        <Logo className="size-12 group-hover:motion-preset-wiggle" />
 
         <div className="px-3 leading-3">
           <p className="font-semibold text-lg">Mouse</p>
@@ -46,7 +46,9 @@ export default function () {
       <div className="flex items-center gap-x-8">
         <p>Trade</p>
 
-        <button className="font-medium">$MST</button>
+        <button className="font-medium ani motion-preset-bounce motion-duration-200 motion-loop-infinite">
+          $MST
+        </button>
 
         <div className="flex items-center gap-x-1">
           <Icon name="MapPin" className="text-red-500 stroke-2" />

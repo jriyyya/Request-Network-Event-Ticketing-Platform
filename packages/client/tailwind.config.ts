@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import tailwindcssMotion from "tailwindcss-motion";
 
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
@@ -35,5 +36,5 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [tailwindcssMotion],
 } satisfies Config;
