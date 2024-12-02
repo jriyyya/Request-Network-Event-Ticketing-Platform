@@ -41,25 +41,26 @@ export default function () {
         </button>
       </div>
 
+      <div className="text-xs flex items-center gap-x-1">
+        <input type="checkbox" name="showonlineevents" defaultChecked />
+        Show online events
+      </div>
       <FlexSeparator size="full" />
 
       <div className="flex items-center gap-x-8">
-        <p>Trade</p>
-
         <button className="font-medium ani motion-preset-bounce motion-duration-200 motion-loop-infinite">
           $MST
         </button>
 
         <div className="flex items-center gap-x-1">
-          <Icon name="MapPin" className="text-red-500 stroke-2" />
-          <p>Gwalior</p>
+          <Icon name="MapPin" className="text-red-500 stroke-2 size-5" />
+          <img src="https://flagsapi.com/IN/flat/16.png" alt="IN" />
+          <p className="text-sm">Gwalior</p>
           <Icon name="ChevronDown" />
         </div>
 
-        <FlexSeparator size="sm" />
-
         <img
-          className="size-10 rounded-full outline outline-offset-1 outline-2 outline-muted"
+          className="size-10 rounded-full outline outline-offset-1 outline-2 outline-muted ml-4"
           src="https://assets.promptbase.com/DALLE_IMAGES%2Fmb3uv9MiTehdpFT4CwVY0V4GveQ2%2Fresized%2F1725705400370u_w_800x800.webp?alt=media&token=15233fd3-fdd8-4157-96c6-635522901bca"
           alt="prfofiel"
         />
