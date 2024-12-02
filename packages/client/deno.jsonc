@@ -23,5 +23,6 @@
     "tailwindcss": "npm:tailwindcss@^3.4.15",
 
     "wagmi": "npm:wagmi@^2.13.2"
-  }
+  },
+  "exclude": ["src/shared/config/countries.ts"]
 }

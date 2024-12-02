@@ -1,10 +1,18 @@
 import React from "../../React.ts";
+import {
+  // createDomSignal,
+  useSignals,
+} from "../lib/preact.ts";
 import navbarConfig from "../signals/navbarConfig.ts";
 import FlexSeparator from "./FlexSeparator.tsx";
 import Icon from "./Icon.tsx";
 import Logo from "./Logo.tsx";
 
+// const regionPickerVisible = createDomSignal(false);
+
 export default function () {
+  useSignals();
+
   const navRef = React.useRef() as React.MutableRefObject<HTMLDivElement>;
 
   React.useEffect(() => {

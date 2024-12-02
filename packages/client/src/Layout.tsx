@@ -1,7 +1,7 @@
 import { Outlet } from "react-router-dom";
 import Navbar from "./shared/components/Navbar.tsx";
 import navbarConfig from "./shared/signals/navbarConfig.ts";
-import { useSignals } from "@preact/signals-react/runtime";
+import { useSignals } from "./shared/lib/preact.ts";
 
 export default function () {
   return (

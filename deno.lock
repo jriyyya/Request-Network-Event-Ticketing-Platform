@@ -10,7 +10,6 @@
     "npm:@nomicfoundation/hardhat-verify@^2.0.11": "2.0.11_hardhat@2.22.15__ts-node@10.9.2___@types+node@22.5.4___typescript@5.6.3__typescript@5.6.3_ts-node@10.9.2__@types+node@22.5.4__typescript@5.6.3",
     "npm:@openzeppelin/contracts@^5.1.0": "5.1.0",
     "npm:@preact/signals-react@^2.2.0": "2.2.0_react@18.3.1",
-    "npm:@preact/signals@^1.3.1": "1.3.1_preact@10.25.0",
     "npm:@types/react-dom@^18.3.1": "18.3.1",
     "npm:@types/react@^18.3.12": "18.3.12",
     "npm:@uniswap/v3-core@^1.0.1": "1.0.1",
@@ -1446,13 +1445,6 @@
         "@preact/signals-core",
         "react",
         "use-sync-external-store"
-      ]
-    },
-    "@preact/signals@1.3.1_preact@10.25.0": {
-      "integrity": "sha512-nNvSF2O7RDzxp1Rm7SkA5QhN1a2kN8pGE8J5o6UjgDof0F0Vlg6d6HUUVxxqZ1uJrN9xnH2DpL6rpII3Es0SsQ==",
-      "dependencies": [
-        "@preact/signals-core",
-        "preact"
       ]
     },
     "@rollup/rollup-android-arm-eabi@4.28.0": {
@@ -6324,7 +6316,6 @@
         "dependencies": [
           "npm:@deno/vite-plugin@1",
           "npm:@preact/signals-react@^2.2.0",
-          "npm:@preact/signals@^1.3.1",
           "npm:@types/react-dom@^18.3.1",
           "npm:@types/react@^18.3.12",
           "npm:@vitejs/plugin-react@^4.3.4",
