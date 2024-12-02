@@ -1,9 +1,9 @@
 export default function HomePage() {
   return (
     <>
-      <h1 className="text-primary text-7xl font-semibold">
-        hi
-      </h1>
+      <div>
+        <img src="/images/home-carousel-1.webp" alt="MST promotional offer" />
+      </div>
     </>
   );
 }

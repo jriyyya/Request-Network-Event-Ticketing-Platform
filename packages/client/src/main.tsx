@@ -1,4 +1,4 @@
-import "../assets/styles/index.css";
+import "./assets/styles/index.css";
 
 import { RouterProvider } from "react-router-dom";
 import { createRoot } from "react-dom/client";

@@ -9,12 +9,13 @@ export default {
         widescreen: { min: "780px" },
       },
       colors: {
-        primary: "",
+        primary: "#13DAB0",
         secondary: "",
-        background: "",
+        background: "#ffffff",
         foreground: "",
-        front: "",
+        front: "#000a01",
         back: "",
+        muted: "#ababbb",
       },
       borderRadius: {
         inherit: "inherit",
@@ -28,6 +29,9 @@ export default {
       },
       zIndex: {
         "1": "1",
+      },
+      strokeWidth: {
+        "3": "3",
       },
     },
   },

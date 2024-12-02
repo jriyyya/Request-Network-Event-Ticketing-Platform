@@ -9,6 +9,8 @@
     "npm:@nomicfoundation/hardhat-toolbox-viem@3": "3.0.0_@nomicfoundation+hardhat-ignition-viem@0.15.7__@nomicfoundation+hardhat-ignition@0.15.7___@nomicfoundation+hardhat-verify@2.0.11____hardhat@2.22.15_____ts-node@10.9.2______@types+node@22.5.4______typescript@5.6.3_____typescript@5.6.3____ts-node@10.9.2_____@types+node@22.5.4_____typescript@5.6.3____typescript@5.6.3___hardhat@2.22.15____ts-node@10.9.2_____@types+node@22.5.4_____typescript@5.6.3____typescript@5.6.3___ts-node@10.9.2____@types+node@22.5.4____typescript@5.6.3___typescript@5.6.3__@nomicfoundation+hardhat-viem@2.0.5___hardhat@2.22.15____ts-node@10.9.2_____@types+node@22.5.4_____typescript@5.6.3____typescript@5.6.3___typescript@5.0.4___viem@2.21.49____typescript@5.6.3____ws@8.18.0___ts-node@10.9.2____@types+node@22.5.4____typescript@5.6.3___typescript@5.6.3__@nomicfoundation+ignition-core@0.15.7__hardhat@2.22.15___ts-node@10.9.2____@types+node@22.5.4____typescript@5.6.3___typescript@5.6.3__viem@2.21.49___typescript@5.6.3___ws@8.18.0__@nomicfoundation+hardhat-verify@2.0.11___hardhat@2.22.15____ts-node@10.9.2_____@types+node@22.5.4_____typescript@5.6.3____typescript@5.6.3___ts-node@10.9.2____@types+node@22.5.4____typescript@5.6.3___typescript@5.6.3__ts-node@10.9.2___@types+node@22.5.4___typescript@5.6.3__typescript@5.6.3_@nomicfoundation+hardhat-network-helpers@1.0.12__hardhat@2.22.15___ts-node@10.9.2____@types+node@22.5.4____typescript@5.6.3___typescript@5.6.3__ts-node@10.9.2___@types+node@22.5.4___typescript@5.6.3__typescript@5.6.3_@nomicfoundation+hardhat-verify@2.0.11__hardhat@2.22.15___ts-node@10.9.2____@types+node@22.5.4____typescript@5.6.3___typescript@5.6.3__ts-node@10.9.2___@types+node@22.5.4___typescript@5.6.3_@nomicfoundation+hardhat-viem@2.0.5__hardhat@2.22.15___ts-node@10.9.2____@types+node@22.5.4____typescript@5.6.3___typescript@5.6.3__typescript@5.0.4__viem@2.21.49___typescript@5.6.3___ws@8.18.0__ts-node@10.9.2___@types+node@22.5.4___typescript@5.6.3__typescript@5.6.3_@types+chai@4.3.20_@types+chai-as-promised@7.1.8_@types+mocha@10.0.9_@types+node@22.9.1_chai@4.5.0_hardhat@2.22.15__ts-node@10.9.2___@types+node@22.5.4___typescript@5.6.3__typescript@5.6.3_hardhat-gas-reporter@1.0.10__hardhat@2.22.15___ts-node@10.9.2____@types+node@22.5.4____typescript@5.6.3___typescript@5.6.3__ts-node@10.9.2___@types+node@22.5.4___typescript@5.6.3__typescript@5.6.3_solidity-coverage@0.8.13__hardhat@2.22.15___ts-node@10.9.2____@types+node@22.5.4____typescript@5.6.3___typescript@5.6.3__ts-node@10.9.2___@types+node@22.5.4___typescript@5.6.3__typescript@5.6.3_ts-node@10.9.2__@types+node@22.5.4__typescript@5.6.3_typescript@5.6.3_viem@2.21.49__typescript@5.6.3__ws@8.18.0_@nomicfoundation+hardhat-verify@2.0.11__hardhat@2.22.15___ts-node@10.9.2____@types+node@22.5.4____typescript@5.6.3___typescript@5.6.3__ts-node@10.9.2___@types+node@22.5.4___typescript@5.6.3__typescript@5.6.3",
     "npm:@nomicfoundation/hardhat-verify@^2.0.11": "2.0.11_hardhat@2.22.15__ts-node@10.9.2___@types+node@22.5.4___typescript@5.6.3__typescript@5.6.3_ts-node@10.9.2__@types+node@22.5.4__typescript@5.6.3",
     "npm:@openzeppelin/contracts@^5.1.0": "5.1.0",
+    "npm:@preact/signals-react@^2.2.0": "2.2.0_react@18.3.1",
+    "npm:@preact/signals@^1.3.1": "1.3.1_preact@10.25.0",
     "npm:@types/react-dom@^18.3.1": "18.3.1",
     "npm:@types/react@^18.3.12": "18.3.12",
     "npm:@uniswap/v3-core@^1.0.1": "1.0.1",
@@ -21,12 +23,14 @@
     "npm:create-vite-extra@latest": "3.0.0",
     "npm:dotenv@^16.4.5": "16.4.5",
     "npm:hardhat@^2.22.15": "2.22.15_ts-node@10.9.2__@types+node@22.5.4__typescript@5.6.3_typescript@5.6.3",
+    "npm:lucide-react@*": "0.462.0_react@18.3.1",
     "npm:postcss@^8.4.49": "8.4.49",
     "npm:react-dom@^18.3.1": "18.3.1_react@18.3.1",
     "npm:react-router-dom@^7.0.1": "7.0.1_react@18.3.1_react-dom@18.3.1__react@18.3.1",
     "npm:react@^18.3.1": "18.3.1",
     "npm:shadcn@latest": "2.1.6_@babel+core@7.26.0",
     "npm:tailwind-merge@^2.5.5": "2.5.5",
+    "npm:tailwindcss-motion@~0.4.3-beta": "0.4.3-beta_tailwindcss@3.4.15__postcss@8.4.49__ts-node@10.9.2___@types+node@22.5.4___typescript@5.6.3_ts-node@10.9.2__@types+node@22.5.4__typescript@5.6.3",
     "npm:tailwindcss@^3.4.15": "3.4.15_postcss@8.4.49_ts-node@10.9.2__@types+node@22.5.4__typescript@5.6.3",
     "npm:ts-node@^10.9.2": "10.9.2_@types+node@22.5.4_typescript@5.6.3",
     "npm:viem@^2.21.40": "2.21.49_typescript@5.6.3_ws@8.18.0",
@@ -1432,6 +1436,24 @@
     },
     "@pkgjs/parseargs@0.11.0": {
       "integrity": "sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg=="
+    },
+    "@preact/signals-core@1.8.0": {
+      "integrity": "sha512-OBvUsRZqNmjzCZXWLxkZfhcgT+Fk8DDcT/8vD6a1xhDemodyy87UJRJfASMuSD8FaAIeGgGm85ydXhm7lr4fyA=="
+    },
+    "@preact/signals-react@2.2.0_react@18.3.1": {
+      "integrity": "sha512-EPYlhXqqcOUxz2gTQGt4rtK6X7Jr04517DcJVZ4I5a7Gxy39haK24uFeVWtiU/tnEReRFcxpQN6poYra1jf68A==",
+      "dependencies": [
+        "@preact/signals-core",
+        "react",
+        "use-sync-external-store"
+      ]
+    },
+    "@preact/signals@1.3.1_preact@10.25.0": {
+      "integrity": "sha512-nNvSF2O7RDzxp1Rm7SkA5QhN1a2kN8pGE8J5o6UjgDof0F0Vlg6d6HUUVxxqZ1uJrN9xnH2DpL6rpII3Es0SsQ==",
+      "dependencies": [
+        "@preact/signals-core",
+        "preact"
+      ]
     },
     "@rollup/rollup-android-arm-eabi@4.28.0": {
       "integrity": "sha512-wLJuPLT6grGZsy34g4N1yRfYeouklTgPhH1gWXCYspenKYD0s3cR99ZevOGw5BexMNywkbV3UkjADisozBmpPQ=="
@@ -4373,6 +4395,12 @@
     "lru_map@0.3.3": {
       "integrity": "sha512-Pn9cox5CsMYngeDbmChANltQl+5pi6XmTrraMSzhPmMBbmgcxmqWry0U3PGapCU1yB4/LqCcom7qhHZiF/jGfQ=="
     },
+    "lucide-react@0.462.0_react@18.3.1": {
+      "integrity": "sha512-NTL7EbAao9IFtuSivSZgrAh4fZd09Lr+6MTkqIxuHaH2nnYiYIzXPo06cOxHg9wKLdj6LL8TByG4qpePqwgx/g==",
+      "dependencies": [
+        "react"
+      ]
+    },
     "make-error@1.3.6": {
       "integrity": "sha512-s8UhlNe7vPKomQhC1qFelMokr/Sc3AgNbso3n74mVPA5LTZwkB9NlXf4XPamLxJE8h0gh73rM94xvwRT2CVInw=="
     },
@@ -5682,6 +5710,12 @@
     "tailwind-merge@2.5.5": {
       "integrity": "sha512-0LXunzzAZzo0tEPxV3I297ffKZPlKDrjj7NXphC8V5ak9yHC5zRmxnOe2m/Rd/7ivsOMJe3JZ2JVocoDdQTRBA=="
     },
+    "tailwindcss-motion@0.4.3-beta_tailwindcss@3.4.15__postcss@8.4.49__ts-node@10.9.2___@types+node@22.5.4___typescript@5.6.3_ts-node@10.9.2__@types+node@22.5.4__typescript@5.6.3": {
+      "integrity": "sha512-9S4nmSw01m0/z0UxodUNT7U+yUdlZdXnH9RMkb2rXvrUEQQ+rMVPeP9j4pMwJy779LECiSr+IoSTVrGluSfU2w==",
+      "dependencies": [
+        "tailwindcss"
+      ]
+    },
     "tailwindcss@3.4.15_postcss@8.4.49_ts-node@10.9.2__@types+node@22.5.4__typescript@5.6.3": {
       "integrity": "sha512-r4MeXnfBmSOuKUWmXe6h2CcyfzJCEk4F0pptO5jlnYSIViUkVmsawj80N5h2lO3gwcmSb4n3PuN+e+GC1Guylw==",
       "dependencies": [
@@ -6289,6 +6323,8 @@
       "packages/client": {
         "dependencies": [
           "npm:@deno/vite-plugin@1",
+          "npm:@preact/signals-react@^2.2.0",
+          "npm:@preact/signals@^1.3.1",
           "npm:@types/react-dom@^18.3.1",
           "npm:@types/react@^18.3.12",
           "npm:@vitejs/plugin-react@^4.3.4",
@@ -6297,6 +6333,7 @@
           "npm:react-dom@^18.3.1",
           "npm:react-router-dom@^7.0.1",
           "npm:react@^18.3.1",
+          "npm:tailwindcss-motion@~0.4.3-beta",
           "npm:tailwindcss@^3.4.15",
           "npm:vite@^6.0.1",
           "npm:wagmi@^2.13.2"

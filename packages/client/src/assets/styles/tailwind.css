@@ -10,4 +10,15 @@
   body {
     @apply m-0 p-0;
   }
+
+  input,
+  textarea {
+    @apply resize-none focus:outline-none bg-transparent;
+  }
+}
+
+@layer utilities {
+  .p-page {
+    @apply px-[4vw];
+  }
 }
